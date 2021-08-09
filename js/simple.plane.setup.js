@@ -34,6 +34,7 @@ if (!isMobile) {
         // set up our WebGL context and append the canvas to our wrapper
         var webGLCurtain = new Curtains({
             container: "canvas",
+            premultipliedAlpha: true,
             watchScroll: false // no need to listen for the scroll in this example
         });
 
